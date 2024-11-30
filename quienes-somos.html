@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zylex Security - Quiénes Somos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo.png" alt="Zylex Security"></a>
+        </div>
+    </header>
+    <main>
+        <section class="quienes-somos">
+            <nav class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="quienes-somos.html">Quiénes somos</a></li>
+                    <li><a href="quehacemos.html">Qué hacemos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <h1>Quiénes somos</h1>
+            <div class="content">
+                <div class="column image">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-d45X1z4ygEM%2FU7rQ42w_0JI%2FAAAAAAAASww%2FbZTvOU3Ztxs%2Fs1600%2Fempresa%2Bcrecimiento.jpg&f=1&nofb=1&ipt=42b14c745cfe92ba6ede2b4b761a7be7b141aec450c890931f8a1482014132ef&ipo=images" alt="Nuestra empresa">
+                </div>
+                <div class="column text">
+                    <p>Somos Zylex Security, una empresa dedicada a la ciberseguridad que busca proteger a nuestros clientes de los ciberataques mediante soluciones innovadoras y de calidad...</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="javascript:void(0)" class="dropdown-link" onclick="toggleDropdown('mision')">Misión</a> | 
+                <a href="javascript:void(0)" class="dropdown-link" onclick="toggleDropdown('vision')">Visión</a> | 
+                <a href="javascript:void(0)" class="dropdown-link" onclick="toggleDropdown('valores')">Valores</a>
+            </div>
+            <div class="dropdown-content">
+                <article id="mision" class="dropdown-article">
+                    <h3>Misión</h3>
+                    <p>Proteger a las empresas contra ciberataques mediante soluciones personalizadas, garantizando la máxima seguridad y confidencialidad de los datos.</p>
+                </article>
+                <article id="vision" class="dropdown-article">
+                    <h3>Visión</h3>
+                    <p>Ser la empresa líder en el sector de la ciberseguridad a nivel global, proporcionando servicios innovadores que anticipen y mitiguen las amenazas cibernéticas.</p>
+                </article>
+                <article id="valores" class="dropdown-article">
+                    <h3>Valores</h3>
+                    <p>Compromiso, innovación, ética, responsabilidad y confianza son los valores que guían nuestra labor en Zylex Security.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Zylex Security. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        function toggleDropdown(id) {
+            const article = document.getElementById(id);
+            article.style.display = article.style.display === 'block' ? 'none' : 'block';
+        }
+    </script>
+</body>
+</html>

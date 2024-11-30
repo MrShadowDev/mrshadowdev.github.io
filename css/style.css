@@ -1,0 +1,374 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    color: white;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+/* Main section */
+main {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+/* Home Page Images */
+.home-images {
+    display: flex;
+    justify-content: center;
+}
+
+.image-box {
+    position: relative;
+    margin: 10px;
+    transition: transform 0.3s;
+    width: 300px;
+    height: 200px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-box:hover {
+    transform: scale(1.05);
+}
+
+/* Overlay Effect */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.image-box:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.ver-mas {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ver-mas:hover {
+    background-color: #0d47a1;
+}
+
+/* Footer */
+footer {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+}
+
+/* Formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #1976d2;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0d47a1;
+}
+/* Estilo General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    padding: 20px;
+    color: white;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Estilos para la sección 'Quiénes somos' */
+.quienes-somos {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.column {
+    width: 48%;
+}
+
+.column.image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.column.text p {
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.dropdown {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.dropdown-link {
+    text-decoration: none;
+    color: #1976d2;
+    font-size: 1.2em;
+    margin: 0 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.dropdown-link:hover {
+    color: #0d47a1;
+}
+
+.dropdown-content {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 8px;
+}
+
+.dropdown-article {
+    display: none;
+    margin-bottom: 20px;
+}
+
+.dropdown-article h3 {
+    font-size: 1.8em;
+    color: #1976d2;
+}
+
+.dropdown-article p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #1976d2;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+/*QUEHACEMOS.HTML*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    text-align: center;
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    padding: 20px;
+    color: white;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+.quehacemos {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.service {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.service img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.service h3 {
+    font-size: 1.6em;
+    color: #1976d2;
+    margin: 15px 0;
+}
+
+.service p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+}
+
+footer {
+    background-color: #1976d2;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
